@@ -1,12 +1,10 @@
-import { useState } from 'react'
+import { Provider } from 'react'
+import { router } from './routes'
+import { RouterProvider } from 'react-router-dom'
 
 function App() {
   return (
-    <>
-      <div>
-        <h1>TESTE</h1>
-      </div>
-    </>
+    <RouterProvider router={router}/>
   )
 }
 
