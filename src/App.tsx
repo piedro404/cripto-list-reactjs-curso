@@ -1,4 +1,3 @@
-import { Provider } from 'react'
 import { router } from './routes'
 import { RouterProvider } from 'react-router-dom'
 
