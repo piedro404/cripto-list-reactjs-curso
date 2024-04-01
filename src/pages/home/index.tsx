@@ -40,13 +40,14 @@ export function Home() {
                     const formatted = {
                         ...item,
                         formattedPrice: price.format(Number(item.price)),
-                        formattedMarket: price.format(Number(item.market_cap))
+                        formattedMarket: price.format(Number(item.market_cap)),
+                        delta_24h: item.delta_24h.replace(',', '.')
                     }
 
                     return formatted
                 })
 
-                // console.log(formatResult);
+                console.log(formatResult);
                 setCoins(formatResult);
             })
             .catch((err) => {
@@ -79,25 +80,27 @@ export function Home() {
                 </thead>
 
                 <tbody id='tbody'>
-                    <tr className={styles.tr}>
-                        <td className={styles.tdLabel} data-label="Moeda">
-                            <Link className={styles.link} to="/detail/btc">
-                                <span>Bitcoin</span> | BTC
-                            </Link>
-                        </td>
+                    {coins.map( coin => (
+                        <tr key={coin.name} className={styles.tr}>
+                            <td className={styles.tdLabel} data-label="Moeda">
+                                <Link className={styles.link} to={`/detail/${coin.symbol}`}>
+                                    <span>{coin.name}</span> | {coin.symbol}
+                                </Link>
+                            </td>
 
-                        <td className={styles.tdLabel} data-label="Mercado">
-                            R$ 19253
-                        </td>
+                            <td className={styles.tdLabel} data-label="Mercado">
+                                {coin.formattedMarket}
+                            </td>
 
-                        <td className={styles.tdLabel} data-label="Preço">
-                            R$ 40.982
-                        </td>
+                            <td className={styles.tdLabel} data-label="Preço">
+                                {coin.formattedPrice}
+                            </td>
 
-                        <td className={styles.tdProfit} data-label="Volume">
-                            <span>-5.3</span>
-                        </td>
-                    </tr>
+                            <td className={Number(coin?.delta_24h) >= 0 ? styles.tdProfit : styles.tdLoss} data-label="Volume">
+                                <span>{coin.delta_24h}</span>
+                            </td>
+                        </tr>
+                    ))}
                 </tbody>
             </table>
 
