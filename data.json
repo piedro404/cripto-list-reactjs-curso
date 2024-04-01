@@ -1,1006 +1,1007 @@
-{
-  "coins": [
-    {
-      "symbol": "USDT",
-      "show_symbol": null,
-      "name": "Tether",
-      "rank": 3,
-      "price": "5.087",
-      "market_cap": "347241752249.0319824219",
-      "volume_24h": "61554456436.5204086304",
-      "delta_24h": "0,49"
-    },
-    {
-      "symbol": "BTC",
-      "show_symbol": null,
-      "name": "Bitcoin",
-      "rank": 1,
-      "price": "352940.7699191302",
-      "market_cap": "6942461767704.1337890625",
-      "volume_24h": "23139299315.7076339722",
-      "delta_24h": "-0,98"
-    },
-    {
-      "symbol": "ETH",
-      "show_symbol": null,
-      "name": "Ethereum",
-      "rank": 2,
-      "price": "17878.4983375545",
-      "market_cap": "2187860959841.1174316406",
-      "volume_24h": "13820665773.6718864441",
-      "delta_24h": "-2,49"
-    },
-    {
-      "symbol": "SOL",
-      "show_symbol": null,
-      "name": "Sola Token",
-      "rank": 1262,
-      "price": "958.9",
-      "market_cap": "281447747762.799987793",
-      "volume_24h": "5386846823.1626367569",
-      "delta_24h": "-3,43"
-    },
-    {
-      "symbol": "DOGE",
-      "show_symbol": null,
-      "name": "Dogecoin",
-      "rank": 9,
-      "price": "1.0419127645",
-      "market_cap": "128779833137.6667022705",
-      "volume_24h": "5181795188.6321468353",
-      "delta_24h": "-3,07"
-    },
-    {
-      "symbol": "USDC",
-      "show_symbol": null,
-      "name": "USCoin",
-      "rank": 5,
-      "price": "5.0865049148",
-      "market_cap": "149084504327.3601989746",
-      "volume_24h": "4285925649.4455928802",
-      "delta_24h": "0,50"
-    },
-    {
-      "symbol": "BNB",
-      "show_symbol": null,
-      "name": "Binance Coin",
-      "rank": 4,
-      "price": "2990",
-      "market_cap": "502729737640",
-      "volume_24h": "2271845787.0669593811",
-      "delta_24h": "-2,10"
-    },
-    {
-      "symbol": "LTC",
-      "show_symbol": null,
-      "name": "Litecoin",
-      "rank": 14,
-      "price": "521.8738404811",
-      "market_cap": "38814275557.8616409302",
-      "volume_24h": "1977234036.1070365906",
-      "delta_24h": "0,66"
-    },
-    {
-      "symbol": "XRP",
-      "show_symbol": null,
-      "name": "XRP",
-      "rank": 6,
-      "price": "3.0771051569",
-      "market_cap": "143347812228.7429199219",
-      "volume_24h": "2011513083.7940912247",
-      "delta_24h": "-3,17"
-    },
-    {
-      "symbol": "XLM",
-      "show_symbol": null,
-      "name": "Stellar",
-      "rank": 21,
-      "price": "0.6951493777",
-      "market_cap": "16468063772.8635692596",
-      "volume_24h": "1444382374.9455573559",
-      "delta_24h": "-2,05"
-    },
-    {
-      "symbol": "AVAX",
-      "show_symbol": null,
-      "name": "Avalanche",
-      "rank": 1868,
-      "price": "264.7606470752",
-      "market_cap": "58323216668.4967193604",
-      "volume_24h": "846119459.88060987",
-      "delta_24h": "-1,65"
-    },
-    {
-      "symbol": "FIL",
-      "show_symbol": null,
-      "name": "FileCoin",
-      "rank": 34,
-      "price": "47.0980930433",
-      "market_cap": "4903784590.2606878281",
-      "volume_24h": "766613983.6960636377",
-      "delta_24h": "-3,75"
-    },
-    {
-      "symbol": "ADA",
-      "show_symbol": null,
-      "name": "Cardano",
-      "rank": 8,
-      "price": "3.1527584013",
-      "market_cap": "101008390651.9598846436",
-      "volume_24h": "728836849.2214289904",
-      "delta_24h": "-3,61"
-    },
-    {
-      "symbol": "FET",
-      "show_symbol": null,
-      "name": "Fetch AI",
-      "rank": 508,
-      "price": "15.1082860645",
-      "market_cap": "0",
-      "volume_24h": "588532660.0550254583",
-      "delta_24h": "-2,56"
-    },
-    {
-      "symbol": "TFUEL",
-      "show_symbol": null,
-      "name": "Theta Fuel",
-      "rank": 55,
-      "price": "0.4806201548",
-      "market_cap": "1844765095.5164141655",
-      "volume_24h": "494327101.181935668",
-      "delta_24h": "13,34"
-    },
-    {
-      "symbol": "LINK",
-      "show_symbol": null,
-      "name": "ChainLink",
-      "rank": 16,
-      "price": "93.4428169651",
-      "market_cap": "42237046020.9038162231",
-      "volume_24h": "467967844.4336166382",
-      "delta_24h": "-3,20"
-    },
-    {
-      "symbol": "MATIC",
-      "show_symbol": null,
-      "name": "Matic Network",
-      "rank": 12,
-      "price": "4.872874343",
-      "market_cap": "32415825096.1281547546",
-      "volume_24h": "439754089.7779249549",
-      "delta_24h": "-3,53"
-    },
-    {
-      "symbol": "FTM",
-      "show_symbol": null,
-      "name": "Fantom Token",
-      "rank": 27,
-      "price": "4.761490968",
-      "market_cap": "12118024382.3808803558",
-      "volume_24h": "418397354.1049870849",
-      "delta_24h": "-6,13"
-    },
-    {
-      "symbol": "RVN",
-      "show_symbol": null,
-      "name": "Ravencoin",
-      "rank": 68,
-      "price": "0.2435724478",
-      "market_cap": "1377767550.9693870544",
-      "volume_24h": "457013293.1018511653",
-      "delta_24h": "-3,35"
-    },
-    {
-      "symbol": "WAVES",
-      "show_symbol": null,
-      "name": "Waves",
-      "rank": 36,
-      "price": "20.5526620158",
-      "market_cap": "2181838701.8689260483",
-      "volume_24h": "438256248.9258368611",
-      "delta_24h": "7,21"
-    },
-    {
-      "symbol": "TRX",
-      "show_symbol": null,
-      "name": "TRON",
-      "rank": 19,
-      "price": "0.6141729271",
-      "market_cap": "44011421519.7969589233",
-      "volume_24h": "436127403.5408300161",
-      "delta_24h": "-1,39"
-    },
-    {
-      "symbol": "RUNE",
-      "show_symbol": null,
-      "name": "RuneStoneCoin",
-      "rank": 1556,
-      "price": "41.5956583821",
-      "market_cap": "0",
-      "volume_24h": "377941125.3178206682",
-      "delta_24h": "-4,19"
-    },
-    {
-      "symbol": "ETC",
-      "show_symbol": null,
-      "name": "Ethereum Classic",
-      "rank": 22,
-      "price": "167.8415802491",
-      "market_cap": "21720537342.4910469055",
-      "volume_24h": "429817142.1635826826",
-      "delta_24h": "-1,76"
-    },
-    {
-      "symbol": "ANKR",
-      "show_symbol": null,
-      "name": "Ankr Network",
-      "rank": 1817,
-      "price": "0.3328210792",
-      "market_cap": "0",
-      "volume_24h": "412578186.563849926",
-      "delta_24h": "10,24"
-    },
-    {
-      "symbol": "RSR",
-      "show_symbol": null,
-      "name": "Reserve Rights",
-      "rank": 126,
-      "price": "0.058205573",
-      "market_cap": "229323411.729486078",
-      "volume_24h": "335926603.424708128",
-      "delta_24h": "8,35"
-    },
-    {
-      "symbol": "INJ",
-      "show_symbol": null,
-      "name": "Injex",
-      "rank": 1707,
-      "price": "173.5204577693",
-      "market_cap": "112652951.5930096805",
-      "volume_24h": "306438326.4845291972",
-      "delta_24h": "-6,75"
-    },
-    {
-      "symbol": "THETA",
-      "show_symbol": null,
-      "name": "Theta Token",
-      "rank": 26,
-      "price": "14.4744139812",
-      "market_cap": "14474413981.1695995331",
-      "volume_24h": "286000901.6557013392",
-      "delta_24h": "-0,43"
-    },
-    {
-      "symbol": "ATOM",
-      "show_symbol": null,
-      "name": "Atomic Coin",
-      "rank": 18,
-      "price": "59.177785755",
-      "market_cap": "13096771341.7549324036",
-      "volume_24h": "259300779.4971521199",
-      "delta_24h": "-4,77"
-    },
-    {
-      "symbol": "LUNA",
-      "show_symbol": null,
-      "name": "Luna",
-      "rank": 7,
-      "price": "5.4876182502",
-      "market_cap": "2209965384.8237934113",
-      "volume_24h": "223732566.2694248259",
-      "delta_24h": "-2,01"
-    },
-    {
-      "symbol": "UNI",
-      "show_symbol": null,
-      "name": "Universe",
-      "rank": 712,
-      "price": "63.9144275394",
-      "market_cap": "39092858477.5336151123",
-      "volume_24h": "223321761.6575736403",
-      "delta_24h": "-2,40"
-    },
-    {
-      "symbol": "ZEC",
-      "show_symbol": null,
-      "name": "ZCash",
-      "rank": 31,
-      "price": "152.8288945451",
-      "market_cap": "2495431301.1045536995",
-      "volume_24h": "224799435.3206195831",
-      "delta_24h": "-1,82"
-    },
-    {
-      "symbol": "MKR",
-      "show_symbol": null,
-      "name": "Maker",
-      "rank": 37,
-      "price": "18968.3518704406",
-      "market_cap": "18724286086.9236602783",
-      "volume_24h": "212248754.2767677307",
-      "delta_24h": "-4,43"
-    },
-    {
-      "symbol": "XVG",
-      "show_symbol": null,
-      "name": "Verge",
-      "rank": 84,
-      "price": "0.042990237",
-      "market_cap": "700446461.2280979156",
-      "volume_24h": "217849533.6992341578",
-      "delta_24h": "26,40"
-    },
-    {
-      "symbol": "DGB",
-      "show_symbol": null,
-      "name": "DigiByte",
-      "rank": 67,
-      "price": "0.0952818643",
-      "market_cap": "1228514589.3339793682",
-      "volume_24h": "202914087.6341051161",
-      "delta_24h": "19,35"
-    },
-    {
-      "symbol": "AAVE",
-      "show_symbol": null,
-      "name": "AAVE(AAVE",
-      "rank": 1879,
-      "price": "648.7452355645",
-      "market_cap": "8546872048.6059141159",
-      "volume_24h": "187547125.8355909288",
-      "delta_24h": "1,50"
-    },
-    {
-      "symbol": "CKB",
-      "show_symbol": null,
-      "name": "Nervos Network",
-      "rank": 1830,
-      "price": "0.0970399951",
-      "market_cap": "1317898053.3384571075",
-      "volume_24h": "173536375.8376684487",
-      "delta_24h": "-5,06"
-    },
-    {
-      "symbol": "GRT",
-      "show_symbol": null,
-      "name": "GoldenRatio Token",
-      "rank": 1853,
-      "price": "1.8614299672",
-      "market_cap": "0",
-      "volume_24h": "159835039.4791604578",
-      "delta_24h": "-5,39"
-    },
-    {
-      "symbol": "VET",
-      "show_symbol": null,
-      "name": "VeChain",
-      "rank": 25,
-      "price": "0.2265796911",
-      "market_cap": "14572603565.2014427185",
-      "volume_24h": "168084923.3856403232",
-      "delta_24h": "-2,93"
-    },
-    {
-      "symbol": "DASH",
-      "show_symbol": null,
-      "name": "Dash",
-      "rank": 45,
-      "price": "197.6536429116",
-      "market_cap": "2319765735.4508843422",
-      "volume_24h": "140133454.2844857574",
-      "delta_24h": "-2,37"
-    },
-    {
-      "symbol": "EOS",
-      "show_symbol": null,
-      "name": "EOS",
-      "rank": 29,
-      "price": "5.3493522076",
-      "market_cap": "5124562071.4895277023",
-      "volume_24h": "151144147.4087686837",
-      "delta_24h": "-3,27"
-    },
-    {
-      "symbol": "AR",
-      "show_symbol": null,
-      "name": "Cappasity",
-      "rank": 1033,
-      "price": "184.4129338587",
-      "market_cap": "0",
-      "volume_24h": "123412762.0418331623",
-      "delta_24h": "-5,23"
-    },
-    {
-      "symbol": "TUSD",
-      "show_symbol": null,
-      "name": "TrueUSD",
-      "rank": 91,
-      "price": "5.0819121505",
-      "market_cap": "698001914.5090537071",
-      "volume_24h": "129463121.4638220221",
-      "delta_24h": "0,39"
-    },
-    {
-      "symbol": "VITE",
-      "show_symbol": null,
-      "name": "VITE",
-      "rank": 162,
-      "price": "0.17478932",
-      "market_cap": "72565998.156844601",
-      "volume_24h": "106839914.3967505544",
-      "delta_24h": "-1,74"
-    },
-    {
-      "symbol": "ZIL",
-      "show_symbol": null,
-      "name": "Zilliqa",
-      "rank": 48,
-      "price": "0.1843927021",
-      "market_cap": "1834045374.6957781315",
-      "volume_24h": "149228326.6817196906",
-      "delta_24h": "-5,58"
-    },
-    {
-      "symbol": "HBAR",
-      "show_symbol": null,
-      "name": "Hedera Hashgraph",
-      "rank": 1842,
-      "price": "0.5549591463",
-      "market_cap": "5346020920.0653066635",
-      "volume_24h": "138759855.0337010622",
-      "delta_24h": "-6,53"
-    },
-    {
-      "symbol": "OCEAN",
-      "show_symbol": null,
-      "name": "BurstOcean",
-      "rank": 343,
-      "price": "6.321807243",
-      "market_cap": "1339129.4628695066",
-      "volume_24h": "107700766.7898415327",
-      "delta_24h": "-2,92"
-    },
-    {
-      "symbol": "CHZ",
-      "show_symbol": null,
-      "name": "Chiliz",
-      "rank": 1818,
-      "price": "0.7087475457",
-      "market_cap": "3236944748.4603300095",
-      "volume_24h": "127963079.0740600973",
-      "delta_24h": "-5,92"
-    },
-    {
-      "symbol": "ZRX",
-      "show_symbol": null,
-      "name": "0x",
-      "rank": 59,
-      "price": "3.5842887451",
-      "market_cap": "2244792466.7874827385",
-      "volume_24h": "128868771.0162782222",
-      "delta_24h": "-3,95"
-    },
-    {
-      "symbol": "AXS",
-      "show_symbol": null,
-      "name": "AXS",
-      "rank": 1586,
-      "price": "51.9140307721",
-      "market_cap": "0",
-      "volume_24h": "117419466.6119520813",
-      "delta_24h": "-5,54"
-    },
-    {
-      "symbol": "XVS",
-      "show_symbol": null,
-      "name": "Vsync",
-      "rank": 993,
-      "price": "85.3107863092",
-      "market_cap": "0",
-      "volume_24h": "85179084.3122315854",
-      "delta_24h": "-2,63"
-    },
-    {
-      "symbol": "ALGO",
-      "show_symbol": null,
-      "name": "Algorand",
-      "rank": 24,
-      "price": "1.2792541033",
-      "market_cap": "6694835636.8437700272",
-      "volume_24h": "84098292.5847861469",
-      "delta_24h": "-4,41"
-    },
-    {
-      "symbol": "BCH",
-      "show_symbol": null,
-      "name": "Bitcoin Cash",
-      "rank": 17,
-      "price": "268.0196559748",
-      "market_cap": "5050791822.0148591995",
-      "volume_24h": "24465922.3787717894",
-      "delta_24h": "169,23"
-    },
-    {
-      "symbol": "SNX",
-      "show_symbol": null,
-      "name": "Synthetix",
-      "rank": 47,
-      "price": "22.8040627801",
-      "market_cap": "3845015532.9665365219",
-      "volume_24h": "80510566.1959473491",
-      "delta_24h": "-3,68"
-    },
-    {
-      "symbol": "DUSK",
-      "show_symbol": null,
-      "name": "Dusk Network",
-      "rank": 1876,
-      "price": "2.6956013",
-      "market_cap": "0",
-      "volume_24h": "75280461.8452949971",
-      "delta_24h": "-3,96"
-    },
-    {
-      "symbol": "CELO",
-      "show_symbol": null,
-      "name": "Celo",
-      "rank": 1892,
-      "price": "6.1583222",
-      "market_cap": "0",
-      "volume_24h": "75328990.814350903",
-      "delta_24h": "-1,05"
-    },
-    {
-      "symbol": "COMP",
-      "show_symbol": null,
-      "name": "Compound Coin",
-      "rank": 1229,
-      "price": "394.0280575933",
-      "market_cap": "8394867576303.232421875",
-      "volume_24h": "76752518.2537480742",
-      "delta_24h": "-1,29"
-    },
-    {
-      "symbol": "MANA",
-      "show_symbol": null,
-      "name": "Decentraland",
-      "rank": 33,
-      "price": "3.1621989088",
-      "market_cap": "3320756333.8559913635",
-      "volume_24h": "86559154.6746874899",
-      "delta_24h": "-5,67"
-    },
-    {
-      "symbol": "NEO",
-      "show_symbol": null,
-      "name": "NEO",
-      "rank": 38,
-      "price": "80.6640538278",
-      "market_cap": "5689948060.7365207672",
-      "volume_24h": "100618372.8437849283",
-      "delta_24h": "-1,37"
-    },
-    {
-      "symbol": "lina",
-      "show_symbol": "LINA",
-      "name": "Lina",
-      "rank": 209,
-      "price": "0.0697180935",
-      "market_cap": "16362236.6833317578",
-      "volume_24h": "69835588.7877602279",
-      "delta_24h": "-3,29"
-    },
-    {
-      "symbol": "NULS",
-      "show_symbol": null,
-      "name": "NULS",
-      "rank": 143,
-      "price": "4.0702737655",
-      "market_cap": "302499078.9367464781",
-      "volume_24h": "65807964.5523908734",
-      "delta_24h": "-1,07"
-    },
-    {
-      "symbol": "1INCH",
-      "show_symbol": null,
-      "name": "1INCH token",
-      "rank": 1884,
-      "price": "3.0024438388",
-      "market_cap": "0",
-      "volume_24h": "67563676.517895937",
-      "delta_24h": "-1,66"
-    },
-    {
-      "symbol": "LTO",
-      "show_symbol": null,
-      "name": "LTO Network",
-      "rank": 506,
-      "price": "1.3511072",
-      "market_cap": "0",
-      "volume_24h": "69136343.2279008031",
-      "delta_24h": "3,70"
-    },
-    {
-      "symbol": "DAI",
-      "show_symbol": null,
-      "name": "Dai",
-      "rank": 15,
-      "price": "5.087226077",
-      "market_cap": "33406627606.4392433167",
-      "volume_24h": "67891987.7321165949",
-      "delta_24h": "0,56"
-    },
-    {
-      "symbol": "CELR",
-      "show_symbol": null,
-      "name": "Celer Network",
-      "rank": 98,
-      "price": "0.1652313064",
-      "market_cap": "391715676.679395318",
-      "volume_24h": "59885732.8931090459",
-      "delta_24h": "-2,41"
-    },
-    {
-      "symbol": "CNET3",
-      "show_symbol": "CNET",
-      "name": "Contractnet",
-      "rank": 4648,
-      "price": "0",
-      "market_cap": "0",
-      "volume_24h": "0",
-      "delta_24h": 0
-    },
-    {
-      "symbol": "ZEN",
-      "show_symbol": null,
-      "name": "Horizen",
-      "rank": 71,
-      "price": "74.4392483465",
-      "market_cap": "483605742.7701033354",
-      "volume_24h": "61111369.7951912209",
-      "delta_24h": "-0,88"
-    },
-    {
-      "symbol": "NKN",
-      "show_symbol": null,
-      "name": "NKN",
-      "rank": 133,
-      "price": "0.8216640652",
-      "market_cap": "183272862.4146335721",
-      "volume_24h": "59478920.2128291726",
-      "delta_24h": "-7,51"
-    },
-    {
-      "symbol": "IOTX",
-      "show_symbol": null,
-      "name": "IoTeX",
-      "rank": 100,
-      "price": "0.3611380127",
-      "market_cap": "550749916.7292313576",
-      "volume_24h": "57059961.7833878025",
-      "delta_24h": "-4,39"
-    },
-    {
-      "symbol": "RIF",
-      "show_symbol": null,
-      "name": "RIF Token",
-      "rank": 1774,
-      "price": "1.5337304089",
-      "market_cap": "823582578.0000071526",
-      "volume_24h": "57578242.6036230326",
-      "delta_24h": "5,39"
-    },
-    {
-      "symbol": "KSM",
-      "show_symbol": null,
-      "name": "KSM",
-      "rank": 1903,
-      "price": "232.4489861272",
-      "market_cap": "0",
-      "volume_24h": "54968790.9899377897",
-      "delta_24h": "-5,47"
-    },
-    {
-      "symbol": "KMD",
-      "show_symbol": null,
-      "name": "Komodo",
-      "rank": 120,
-      "price": "2.7619259606",
-      "market_cap": "287954122.4250793457",
-      "volume_24h": "54435435.3979541883",
-      "delta_24h": "-4,82"
-    },
-    {
-      "symbol": "XTZ",
-      "show_symbol": null,
-      "name": "Tezos",
-      "rank": 28,
-      "price": "6.9380546207",
-      "market_cap": "5961850902.1034984589",
-      "volume_24h": "63328696.1812101454",
-      "delta_24h": "-1,75"
-    },
-    {
-      "symbol": "IOT",
-      "show_symbol": null,
-      "name": "IOTA",
-      "rank": 35,
-      "price": "1.6485505571",
-      "market_cap": "4582196196.5245876312",
-      "volume_24h": "72135124.8123641759",
-      "delta_24h": "-6,11"
-    },
-    {
-      "symbol": "MLN",
-      "show_symbol": null,
-      "name": "Melon",
-      "rank": 134,
-      "price": "136.26054844",
-      "market_cap": "110711968.1286187321",
-      "volume_24h": "45582802.619441554",
-      "delta_24h": "1,03"
-    },
-    {
-      "symbol": "ONE3",
-      "show_symbol": "ONE",
-      "name": "Harmony",
-      "rank": 514,
-      "price": "0.15332218",
-      "market_cap": "0",
-      "volume_24h": "46216672.6008740887",
-      "delta_24h": "-2,51"
-    },
-    {
-      "symbol": "CHR",
-      "show_symbol": null,
-      "name": "chr",
-      "rank": 1826,
-      "price": "2.116231206",
-      "market_cap": "0",
-      "volume_24h": "45996865.301275067",
-      "delta_24h": "-5,40"
-    },
-    {
-      "symbol": "OGN",
-      "show_symbol": null,
-      "name": "OGNCoin",
-      "rank": 1553,
-      "price": "1.0757298576",
-      "market_cap": "0",
-      "volume_24h": "45862467.9490199387",
-      "delta_24h": "-2,27"
-    },
-    {
-      "symbol": "CVC",
-      "show_symbol": null,
-      "name": "Civic",
-      "rank": 103,
-      "price": "1.1194224664",
-      "market_cap": "383626042.2798423767",
-      "volume_24h": "73113621.0455517322",
-      "delta_24h": "-6,74"
-    },
-    {
-      "symbol": "STORJ",
-      "show_symbol": null,
-      "name": "Storj",
-      "rank": 89,
-      "price": "3.8075830028",
-      "market_cap": "517021944.7314724922",
-      "volume_24h": "74953928.160233289",
-      "delta_24h": "-4,20"
-    },
-    {
-      "symbol": "SUSHI",
-      "show_symbol": null,
-      "name": "SUSHI",
-      "rank": 1900,
-      "price": "9.1662897573",
-      "market_cap": "0",
-      "volume_24h": "45892112.5159214213",
-      "delta_24h": "-4,68"
-    },
-    {
-      "symbol": "ARPA",
-      "show_symbol": null,
-      "name": "ArpaCoin",
-      "rank": 405,
-      "price": "0.4727215587",
-      "market_cap": "0",
-      "volume_24h": "42649248.9514157325",
-      "delta_24h": "-3,83"
-    },
-    {
-      "symbol": "IOST",
-      "show_symbol": null,
-      "name": "IOStoken",
-      "rank": 63,
-      "price": "0.0610383631",
-      "market_cap": "733312795.0565888882",
-      "volume_24h": "59757672.8698530197",
-      "delta_24h": "-4,51"
-    },
-    {
-      "symbol": "LRC",
-      "show_symbol": null,
-      "name": "Loopring",
-      "rank": 51,
-      "price": "1.9201247927",
-      "market_cap": "1813913997.9904210567",
-      "volume_24h": "43811528.4047188088",
-      "delta_24h": "-1,33"
-    },
-    {
-      "symbol": "LPT",
-      "show_symbol": null,
-      "name": "Livepeer",
-      "rank": 1749,
-      "price": "89.693984",
-      "market_cap": "0",
-      "volume_24h": "41693751.7892252281",
-      "delta_24h": "-4,79"
-    },
-    {
-      "symbol": "KEY2",
-      "show_symbol": "KEY",
-      "name": "SelfKey",
-      "rank": 161,
-      "price": "0.050122211",
-      "market_cap": "127381135.1217772812",
-      "volume_24h": "42071201.4425761998",
-      "delta_24h": "-1,96"
-    },
-    {
-      "symbol": "MDT",
-      "show_symbol": null,
-      "name": "Midnight",
-      "rank": 398,
-      "price": "0.53652589",
-      "market_cap": "0",
-      "volume_24h": "40988824.7366966456",
-      "delta_24h": "-1,83"
-    },
-    {
-      "symbol": "BEL",
-      "show_symbol": null,
-      "name": "Bella Protocol",
-      "rank": 1882,
-      "price": "4.9542293",
-      "market_cap": "71836324.849999994",
-      "volume_24h": "41514519.1353929266",
-      "delta_24h": "6,23"
-    },
-    {
-      "symbol": "REN",
-      "show_symbol": null,
-      "name": "Republic Protocol",
-      "rank": 72,
-      "price": "0.5389326372",
-      "market_cap": "338441288.8101989627",
-      "volume_24h": "42090461.769334875",
-      "delta_24h": "4,61"
-    },
-    {
-      "symbol": "ENJ",
-      "show_symbol": null,
-      "name": "Enjin Coin",
-      "rank": 44,
-      "price": "2.358063737",
-      "market_cap": "1921284611.3390145302",
-      "volume_24h": "39407316.9032764286",
-      "delta_24h": "-6,53"
-    },
-    {
-      "symbol": "COTI",
-      "show_symbol": null,
-      "name": "Coti",
-      "rank": 1854,
-      "price": "0.89444721",
-      "market_cap": "0",
-      "volume_24h": "38962354.8127690181",
-      "delta_24h": "-5,80"
-    },
-    {
-      "symbol": "DOT",
-      "show_symbol": null,
-      "name": "Polkadot",
-      "rank": 10,
-      "price": "47.4363144095",
-      "market_cap": "46847122890.6563720703",
-      "volume_24h": "66879517.2098517194",
-      "delta_24h": "-2,19"
-    },
-    {
-      "symbol": "HOT",
-      "show_symbol": null,
-      "name": "HoloToken",
-      "rank": 52,
-      "price": "0.0166553009",
-      "market_cap": "2723046817.1451601982",
-      "volume_24h": "42712071.1869510934",
-      "delta_24h": "-2,68"
-    },
-    {
-      "symbol": "ORN",
-      "show_symbol": null,
-      "name": "Orion Protocol",
-      "rank": 1891,
-      "price": "11.725535",
-      "market_cap": "0",
-      "volume_24h": "38464093.3652053475",
-      "delta_24h": "2,49"
-    },
-    {
-      "symbol": "SUPER",
-      "show_symbol": null,
-      "name": "SuperCoin",
-      "rank": 820,
-      "price": "6.6665135",
-      "market_cap": "332555746.022857964",
-      "volume_24h": "38122557.4474525005",
-      "delta_24h": "0,78"
-    },
-    {
-      "symbol": "QTUM",
-      "show_symbol": null,
-      "name": "QTUM",
-      "rank": 54,
-      "price": "23.4598942037",
-      "market_cap": "2389335516.1755886078",
-      "volume_24h": "58825675.1979903728",
-      "delta_24h": "-3,15"
-    },
-    {
-      "symbol": "ICX",
-      "show_symbol": null,
-      "name": "ICON",
-      "rank": 61,
-      "price": "1.7397253622",
-      "market_cap": "914323878.3869285583",
-      "volume_24h": "56600113.3801870123",
-      "delta_24h": "-3,51"
-    },
-    {
-      "symbol": "WBTC",
-      "show_symbol": null,
-      "name": "wBTC",
-      "rank": 787,
-      "price": "353217.6399884397",
-      "market_cap": "71975511718.0843353271",
-      "volume_24h": "36800984.2332193702",
-      "delta_24h": "-0,99"
-    },
-    {
-      "symbol": "FTT",
-      "show_symbol": null,
-      "name": "FarmaTrust",
-      "rank": 1657,
-      "price": "9.4165481336",
-      "market_cap": "5649928880.1724805832",
-      "volume_24h": "34534850.4227073267",
-      "delta_24h": "-2,12"
-    },
-    {
-      "symbol": "SC",
-      "show_symbol": null,
-      "name": "Siacoin",
-      "rank": 60,
-      "price": "0.0777948277",
-      "market_cap": "3253150013.7363190651",
-      "volume_24h": "68343145.1407983601",
-      "delta_24h": "-25,61"
-    },
-    {
-      "symbol": "LIT",
-      "show_symbol": null,
-      "name": "LithiumCoin",
-      "rank": 452,
-      "price": "8.1345158497",
-      "market_cap": "0",
-      "volume_24h": "32737492.1116024256",
-      "delta_24h": "-0,64"
-    }
-  ],
-  "last_updated_timestamp": 1711984541,
-  "remaining": 55
-}
+  [{
+    "coins": [
+      {
+        "symbol": "USDT",
+        "show_symbol": null,
+        "name": "Tether",
+        "rank": 3,
+        "price": "5.087",
+        "market_cap": "347241752249.0319824219",
+        "volume_24h": "61554456436.5204086304",
+        "delta_24h": "0,49"
+      },
+      {
+        "symbol": "BTC",
+        "show_symbol": null,
+        "name": "Bitcoin",
+        "rank": 1,
+        "price": "352940.7699191302",
+        "market_cap": "6942461767704.1337890625",
+        "volume_24h": "23139299315.7076339722",
+        "delta_24h": "-0,98"
+      },
+      {
+        "symbol": "ETH",
+        "show_symbol": null,
+        "name": "Ethereum",
+        "rank": 2,
+        "price": "17878.4983375545",
+        "market_cap": "2187860959841.1174316406",
+        "volume_24h": "13820665773.6718864441",
+        "delta_24h": "-2,49"
+      },
+      {
+        "symbol": "SOL",
+        "show_symbol": null,
+        "name": "Sola Token",
+        "rank": 1262,
+        "price": "958.9",
+        "market_cap": "281447747762.799987793",
+        "volume_24h": "5386846823.1626367569",
+        "delta_24h": "-3,43"
+      },
+      {
+        "symbol": "DOGE",
+        "show_symbol": null,
+        "name": "Dogecoin",
+        "rank": 9,
+        "price": "1.0419127645",
+        "market_cap": "128779833137.6667022705",
+        "volume_24h": "5181795188.6321468353",
+        "delta_24h": "-3,07"
+      },
+      {
+        "symbol": "USDC",
+        "show_symbol": null,
+        "name": "USCoin",
+        "rank": 5,
+        "price": "5.0865049148",
+        "market_cap": "149084504327.3601989746",
+        "volume_24h": "4285925649.4455928802",
+        "delta_24h": "0,50"
+      },
+      {
+        "symbol": "BNB",
+        "show_symbol": null,
+        "name": "Binance Coin",
+        "rank": 4,
+        "price": "2990",
+        "market_cap": "502729737640",
+        "volume_24h": "2271845787.0669593811",
+        "delta_24h": "-2,10"
+      },
+      {
+        "symbol": "LTC",
+        "show_symbol": null,
+        "name": "Litecoin",
+        "rank": 14,
+        "price": "521.8738404811",
+        "market_cap": "38814275557.8616409302",
+        "volume_24h": "1977234036.1070365906",
+        "delta_24h": "0,66"
+      },
+      {
+        "symbol": "XRP",
+        "show_symbol": null,
+        "name": "XRP",
+        "rank": 6,
+        "price": "3.0771051569",
+        "market_cap": "143347812228.7429199219",
+        "volume_24h": "2011513083.7940912247",
+        "delta_24h": "-3,17"
+      },
+      {
+        "symbol": "XLM",
+        "show_symbol": null,
+        "name": "Stellar",
+        "rank": 21,
+        "price": "0.6951493777",
+        "market_cap": "16468063772.8635692596",
+        "volume_24h": "1444382374.9455573559",
+        "delta_24h": "-2,05"
+      },
+      {
+        "symbol": "AVAX",
+        "show_symbol": null,
+        "name": "Avalanche",
+        "rank": 1868,
+        "price": "264.7606470752",
+        "market_cap": "58323216668.4967193604",
+        "volume_24h": "846119459.88060987",
+        "delta_24h": "-1,65"
+      },
+      {
+        "symbol": "FIL",
+        "show_symbol": null,
+        "name": "FileCoin",
+        "rank": 34,
+        "price": "47.0980930433",
+        "market_cap": "4903784590.2606878281",
+        "volume_24h": "766613983.6960636377",
+        "delta_24h": "-3,75"
+      },
+      {
+        "symbol": "ADA",
+        "show_symbol": null,
+        "name": "Cardano",
+        "rank": 8,
+        "price": "3.1527584013",
+        "market_cap": "101008390651.9598846436",
+        "volume_24h": "728836849.2214289904",
+        "delta_24h": "-3,61"
+      },
+      {
+        "symbol": "FET",
+        "show_symbol": null,
+        "name": "Fetch AI",
+        "rank": 508,
+        "price": "15.1082860645",
+        "market_cap": "0",
+        "volume_24h": "588532660.0550254583",
+        "delta_24h": "-2,56"
+      },
+      {
+        "symbol": "TFUEL",
+        "show_symbol": null,
+        "name": "Theta Fuel",
+        "rank": 55,
+        "price": "0.4806201548",
+        "market_cap": "1844765095.5164141655",
+        "volume_24h": "494327101.181935668",
+        "delta_24h": "13,34"
+      },
+      {
+        "symbol": "LINK",
+        "show_symbol": null,
+        "name": "ChainLink",
+        "rank": 16,
+        "price": "93.4428169651",
+        "market_cap": "42237046020.9038162231",
+        "volume_24h": "467967844.4336166382",
+        "delta_24h": "-3,20"
+      },
+      {
+        "symbol": "MATIC",
+        "show_symbol": null,
+        "name": "Matic Network",
+        "rank": 12,
+        "price": "4.872874343",
+        "market_cap": "32415825096.1281547546",
+        "volume_24h": "439754089.7779249549",
+        "delta_24h": "-3,53"
+      },
+      {
+        "symbol": "FTM",
+        "show_symbol": null,
+        "name": "Fantom Token",
+        "rank": 27,
+        "price": "4.761490968",
+        "market_cap": "12118024382.3808803558",
+        "volume_24h": "418397354.1049870849",
+        "delta_24h": "-6,13"
+      },
+      {
+        "symbol": "RVN",
+        "show_symbol": null,
+        "name": "Ravencoin",
+        "rank": 68,
+        "price": "0.2435724478",
+        "market_cap": "1377767550.9693870544",
+        "volume_24h": "457013293.1018511653",
+        "delta_24h": "-3,35"
+      },
+      {
+        "symbol": "WAVES",
+        "show_symbol": null,
+        "name": "Waves",
+        "rank": 36,
+        "price": "20.5526620158",
+        "market_cap": "2181838701.8689260483",
+        "volume_24h": "438256248.9258368611",
+        "delta_24h": "7,21"
+      },
+      {
+        "symbol": "TRX",
+        "show_symbol": null,
+        "name": "TRON",
+        "rank": 19,
+        "price": "0.6141729271",
+        "market_cap": "44011421519.7969589233",
+        "volume_24h": "436127403.5408300161",
+        "delta_24h": "-1,39"
+      },
+      {
+        "symbol": "RUNE",
+        "show_symbol": null,
+        "name": "RuneStoneCoin",
+        "rank": 1556,
+        "price": "41.5956583821",
+        "market_cap": "0",
+        "volume_24h": "377941125.3178206682",
+        "delta_24h": "-4,19"
+      },
+      {
+        "symbol": "ETC",
+        "show_symbol": null,
+        "name": "Ethereum Classic",
+        "rank": 22,
+        "price": "167.8415802491",
+        "market_cap": "21720537342.4910469055",
+        "volume_24h": "429817142.1635826826",
+        "delta_24h": "-1,76"
+      },
+      {
+        "symbol": "ANKR",
+        "show_symbol": null,
+        "name": "Ankr Network",
+        "rank": 1817,
+        "price": "0.3328210792",
+        "market_cap": "0",
+        "volume_24h": "412578186.563849926",
+        "delta_24h": "10,24"
+      },
+      {
+        "symbol": "RSR",
+        "show_symbol": null,
+        "name": "Reserve Rights",
+        "rank": 126,
+        "price": "0.058205573",
+        "market_cap": "229323411.729486078",
+        "volume_24h": "335926603.424708128",
+        "delta_24h": "8,35"
+      },
+      {
+        "symbol": "INJ",
+        "show_symbol": null,
+        "name": "Injex",
+        "rank": 1707,
+        "price": "173.5204577693",
+        "market_cap": "112652951.5930096805",
+        "volume_24h": "306438326.4845291972",
+        "delta_24h": "-6,75"
+      },
+      {
+        "symbol": "THETA",
+        "show_symbol": null,
+        "name": "Theta Token",
+        "rank": 26,
+        "price": "14.4744139812",
+        "market_cap": "14474413981.1695995331",
+        "volume_24h": "286000901.6557013392",
+        "delta_24h": "-0,43"
+      },
+      {
+        "symbol": "ATOM",
+        "show_symbol": null,
+        "name": "Atomic Coin",
+        "rank": 18,
+        "price": "59.177785755",
+        "market_cap": "13096771341.7549324036",
+        "volume_24h": "259300779.4971521199",
+        "delta_24h": "-4,77"
+      },
+      {
+        "symbol": "LUNA",
+        "show_symbol": null,
+        "name": "Luna",
+        "rank": 7,
+        "price": "5.4876182502",
+        "market_cap": "2209965384.8237934113",
+        "volume_24h": "223732566.2694248259",
+        "delta_24h": "-2,01"
+      },
+      {
+        "symbol": "UNI",
+        "show_symbol": null,
+        "name": "Universe",
+        "rank": 712,
+        "price": "63.9144275394",
+        "market_cap": "39092858477.5336151123",
+        "volume_24h": "223321761.6575736403",
+        "delta_24h": "-2,40"
+      },
+      {
+        "symbol": "ZEC",
+        "show_symbol": null,
+        "name": "ZCash",
+        "rank": 31,
+        "price": "152.8288945451",
+        "market_cap": "2495431301.1045536995",
+        "volume_24h": "224799435.3206195831",
+        "delta_24h": "-1,82"
+      },
+      {
+        "symbol": "MKR",
+        "show_symbol": null,
+        "name": "Maker",
+        "rank": 37,
+        "price": "18968.3518704406",
+        "market_cap": "18724286086.9236602783",
+        "volume_24h": "212248754.2767677307",
+        "delta_24h": "-4,43"
+      },
+      {
+        "symbol": "XVG",
+        "show_symbol": null,
+        "name": "Verge",
+        "rank": 84,
+        "price": "0.042990237",
+        "market_cap": "700446461.2280979156",
+        "volume_24h": "217849533.6992341578",
+        "delta_24h": "26,40"
+      },
+      {
+        "symbol": "DGB",
+        "show_symbol": null,
+        "name": "DigiByte",
+        "rank": 67,
+        "price": "0.0952818643",
+        "market_cap": "1228514589.3339793682",
+        "volume_24h": "202914087.6341051161",
+        "delta_24h": "19,35"
+      },
+      {
+        "symbol": "AAVE",
+        "show_symbol": null,
+        "name": "AAVE(AAVE",
+        "rank": 1879,
+        "price": "648.7452355645",
+        "market_cap": "8546872048.6059141159",
+        "volume_24h": "187547125.8355909288",
+        "delta_24h": "1,50"
+      },
+      {
+        "symbol": "CKB",
+        "show_symbol": null,
+        "name": "Nervos Network",
+        "rank": 1830,
+        "price": "0.0970399951",
+        "market_cap": "1317898053.3384571075",
+        "volume_24h": "173536375.8376684487",
+        "delta_24h": "-5,06"
+      },
+      {
+        "symbol": "GRT",
+        "show_symbol": null,
+        "name": "GoldenRatio Token",
+        "rank": 1853,
+        "price": "1.8614299672",
+        "market_cap": "0",
+        "volume_24h": "159835039.4791604578",
+        "delta_24h": "-5,39"
+      },
+      {
+        "symbol": "VET",
+        "show_symbol": null,
+        "name": "VeChain",
+        "rank": 25,
+        "price": "0.2265796911",
+        "market_cap": "14572603565.2014427185",
+        "volume_24h": "168084923.3856403232",
+        "delta_24h": "-2,93"
+      },
+      {
+        "symbol": "DASH",
+        "show_symbol": null,
+        "name": "Dash",
+        "rank": 45,
+        "price": "197.6536429116",
+        "market_cap": "2319765735.4508843422",
+        "volume_24h": "140133454.2844857574",
+        "delta_24h": "-2,37"
+      },
+      {
+        "symbol": "EOS",
+        "show_symbol": null,
+        "name": "EOS",
+        "rank": 29,
+        "price": "5.3493522076",
+        "market_cap": "5124562071.4895277023",
+        "volume_24h": "151144147.4087686837",
+        "delta_24h": "-3,27"
+      },
+      {
+        "symbol": "AR",
+        "show_symbol": null,
+        "name": "Cappasity",
+        "rank": 1033,
+        "price": "184.4129338587",
+        "market_cap": "0",
+        "volume_24h": "123412762.0418331623",
+        "delta_24h": "-5,23"
+      },
+      {
+        "symbol": "TUSD",
+        "show_symbol": null,
+        "name": "TrueUSD",
+        "rank": 91,
+        "price": "5.0819121505",
+        "market_cap": "698001914.5090537071",
+        "volume_24h": "129463121.4638220221",
+        "delta_24h": "0,39"
+      },
+      {
+        "symbol": "VITE",
+        "show_symbol": null,
+        "name": "VITE",
+        "rank": 162,
+        "price": "0.17478932",
+        "market_cap": "72565998.156844601",
+        "volume_24h": "106839914.3967505544",
+        "delta_24h": "-1,74"
+      },
+      {
+        "symbol": "ZIL",
+        "show_symbol": null,
+        "name": "Zilliqa",
+        "rank": 48,
+        "price": "0.1843927021",
+        "market_cap": "1834045374.6957781315",
+        "volume_24h": "149228326.6817196906",
+        "delta_24h": "-5,58"
+      },
+      {
+        "symbol": "HBAR",
+        "show_symbol": null,
+        "name": "Hedera Hashgraph",
+        "rank": 1842,
+        "price": "0.5549591463",
+        "market_cap": "5346020920.0653066635",
+        "volume_24h": "138759855.0337010622",
+        "delta_24h": "-6,53"
+      },
+      {
+        "symbol": "OCEAN",
+        "show_symbol": null,
+        "name": "BurstOcean",
+        "rank": 343,
+        "price": "6.321807243",
+        "market_cap": "1339129.4628695066",
+        "volume_24h": "107700766.7898415327",
+        "delta_24h": "-2,92"
+      },
+      {
+        "symbol": "CHZ",
+        "show_symbol": null,
+        "name": "Chiliz",
+        "rank": 1818,
+        "price": "0.7087475457",
+        "market_cap": "3236944748.4603300095",
+        "volume_24h": "127963079.0740600973",
+        "delta_24h": "-5,92"
+      },
+      {
+        "symbol": "ZRX",
+        "show_symbol": null,
+        "name": "0x",
+        "rank": 59,
+        "price": "3.5842887451",
+        "market_cap": "2244792466.7874827385",
+        "volume_24h": "128868771.0162782222",
+        "delta_24h": "-3,95"
+      },
+      {
+        "symbol": "AXS",
+        "show_symbol": null,
+        "name": "AXS",
+        "rank": 1586,
+        "price": "51.9140307721",
+        "market_cap": "0",
+        "volume_24h": "117419466.6119520813",
+        "delta_24h": "-5,54"
+      },
+      {
+        "symbol": "XVS",
+        "show_symbol": null,
+        "name": "Vsync",
+        "rank": 993,
+        "price": "85.3107863092",
+        "market_cap": "0",
+        "volume_24h": "85179084.3122315854",
+        "delta_24h": "-2,63"
+      },
+      {
+        "symbol": "ALGO",
+        "show_symbol": null,
+        "name": "Algorand",
+        "rank": 24,
+        "price": "1.2792541033",
+        "market_cap": "6694835636.8437700272",
+        "volume_24h": "84098292.5847861469",
+        "delta_24h": "-4,41"
+      },
+      {
+        "symbol": "BCH",
+        "show_symbol": null,
+        "name": "Bitcoin Cash",
+        "rank": 17,
+        "price": "268.0196559748",
+        "market_cap": "5050791822.0148591995",
+        "volume_24h": "24465922.3787717894",
+        "delta_24h": "169,23"
+      },
+      {
+        "symbol": "SNX",
+        "show_symbol": null,
+        "name": "Synthetix",
+        "rank": 47,
+        "price": "22.8040627801",
+        "market_cap": "3845015532.9665365219",
+        "volume_24h": "80510566.1959473491",
+        "delta_24h": "-3,68"
+      },
+      {
+        "symbol": "DUSK",
+        "show_symbol": null,
+        "name": "Dusk Network",
+        "rank": 1876,
+        "price": "2.6956013",
+        "market_cap": "0",
+        "volume_24h": "75280461.8452949971",
+        "delta_24h": "-3,96"
+      },
+      {
+        "symbol": "CELO",
+        "show_symbol": null,
+        "name": "Celo",
+        "rank": 1892,
+        "price": "6.1583222",
+        "market_cap": "0",
+        "volume_24h": "75328990.814350903",
+        "delta_24h": "-1,05"
+      },
+      {
+        "symbol": "COMP",
+        "show_symbol": null,
+        "name": "Compound Coin",
+        "rank": 1229,
+        "price": "394.0280575933",
+        "market_cap": "8394867576303.232421875",
+        "volume_24h": "76752518.2537480742",
+        "delta_24h": "-1,29"
+      },
+      {
+        "symbol": "MANA",
+        "show_symbol": null,
+        "name": "Decentraland",
+        "rank": 33,
+        "price": "3.1621989088",
+        "market_cap": "3320756333.8559913635",
+        "volume_24h": "86559154.6746874899",
+        "delta_24h": "-5,67"
+      },
+      {
+        "symbol": "NEO",
+        "show_symbol": null,
+        "name": "NEO",
+        "rank": 38,
+        "price": "80.6640538278",
+        "market_cap": "5689948060.7365207672",
+        "volume_24h": "100618372.8437849283",
+        "delta_24h": "-1,37"
+      },
+      {
+        "symbol": "lina",
+        "show_symbol": "LINA",
+        "name": "Lina",
+        "rank": 209,
+        "price": "0.0697180935",
+        "market_cap": "16362236.6833317578",
+        "volume_24h": "69835588.7877602279",
+        "delta_24h": "-3,29"
+      },
+      {
+        "symbol": "NULS",
+        "show_symbol": null,
+        "name": "NULS",
+        "rank": 143,
+        "price": "4.0702737655",
+        "market_cap": "302499078.9367464781",
+        "volume_24h": "65807964.5523908734",
+        "delta_24h": "-1,07"
+      },
+      {
+        "symbol": "1INCH",
+        "show_symbol": null,
+        "name": "1INCH token",
+        "rank": 1884,
+        "price": "3.0024438388",
+        "market_cap": "0",
+        "volume_24h": "67563676.517895937",
+        "delta_24h": "-1,66"
+      },
+      {
+        "symbol": "LTO",
+        "show_symbol": null,
+        "name": "LTO Network",
+        "rank": 506,
+        "price": "1.3511072",
+        "market_cap": "0",
+        "volume_24h": "69136343.2279008031",
+        "delta_24h": "3,70"
+      },
+      {
+        "symbol": "DAI",
+        "show_symbol": null,
+        "name": "Dai",
+        "rank": 15,
+        "price": "5.087226077",
+        "market_cap": "33406627606.4392433167",
+        "volume_24h": "67891987.7321165949",
+        "delta_24h": "0,56"
+      },
+      {
+        "symbol": "CELR",
+        "show_symbol": null,
+        "name": "Celer Network",
+        "rank": 98,
+        "price": "0.1652313064",
+        "market_cap": "391715676.679395318",
+        "volume_24h": "59885732.8931090459",
+        "delta_24h": "-2,41"
+      },
+      {
+        "symbol": "CNET3",
+        "show_symbol": "CNET",
+        "name": "Contractnet",
+        "rank": 4648,
+        "price": "0",
+        "market_cap": "0",
+        "volume_24h": "0",
+        "delta_24h": 0
+      },
+      {
+        "symbol": "ZEN",
+        "show_symbol": null,
+        "name": "Horizen",
+        "rank": 71,
+        "price": "74.4392483465",
+        "market_cap": "483605742.7701033354",
+        "volume_24h": "61111369.7951912209",
+        "delta_24h": "-0,88"
+      },
+      {
+        "symbol": "NKN",
+        "show_symbol": null,
+        "name": "NKN",
+        "rank": 133,
+        "price": "0.8216640652",
+        "market_cap": "183272862.4146335721",
+        "volume_24h": "59478920.2128291726",
+        "delta_24h": "-7,51"
+      },
+      {
+        "symbol": "IOTX",
+        "show_symbol": null,
+        "name": "IoTeX",
+        "rank": 100,
+        "price": "0.3611380127",
+        "market_cap": "550749916.7292313576",
+        "volume_24h": "57059961.7833878025",
+        "delta_24h": "-4,39"
+      },
+      {
+        "symbol": "RIF",
+        "show_symbol": null,
+        "name": "RIF Token",
+        "rank": 1774,
+        "price": "1.5337304089",
+        "market_cap": "823582578.0000071526",
+        "volume_24h": "57578242.6036230326",
+        "delta_24h": "5,39"
+      },
+      {
+        "symbol": "KSM",
+        "show_symbol": null,
+        "name": "KSM",
+        "rank": 1903,
+        "price": "232.4489861272",
+        "market_cap": "0",
+        "volume_24h": "54968790.9899377897",
+        "delta_24h": "-5,47"
+      },
+      {
+        "symbol": "KMD",
+        "show_symbol": null,
+        "name": "Komodo",
+        "rank": 120,
+        "price": "2.7619259606",
+        "market_cap": "287954122.4250793457",
+        "volume_24h": "54435435.3979541883",
+        "delta_24h": "-4,82"
+      },
+      {
+        "symbol": "XTZ",
+        "show_symbol": null,
+        "name": "Tezos",
+        "rank": 28,
+        "price": "6.9380546207",
+        "market_cap": "5961850902.1034984589",
+        "volume_24h": "63328696.1812101454",
+        "delta_24h": "-1,75"
+      },
+      {
+        "symbol": "IOT",
+        "show_symbol": null,
+        "name": "IOTA",
+        "rank": 35,
+        "price": "1.6485505571",
+        "market_cap": "4582196196.5245876312",
+        "volume_24h": "72135124.8123641759",
+        "delta_24h": "-6,11"
+      },
+      {
+        "symbol": "MLN",
+        "show_symbol": null,
+        "name": "Melon",
+        "rank": 134,
+        "price": "136.26054844",
+        "market_cap": "110711968.1286187321",
+        "volume_24h": "45582802.619441554",
+        "delta_24h": "1,03"
+      },
+      {
+        "symbol": "ONE3",
+        "show_symbol": "ONE",
+        "name": "Harmony",
+        "rank": 514,
+        "price": "0.15332218",
+        "market_cap": "0",
+        "volume_24h": "46216672.6008740887",
+        "delta_24h": "-2,51"
+      },
+      {
+        "symbol": "CHR",
+        "show_symbol": null,
+        "name": "chr",
+        "rank": 1826,
+        "price": "2.116231206",
+        "market_cap": "0",
+        "volume_24h": "45996865.301275067",
+        "delta_24h": "-5,40"
+      },
+      {
+        "symbol": "OGN",
+        "show_symbol": null,
+        "name": "OGNCoin",
+        "rank": 1553,
+        "price": "1.0757298576",
+        "market_cap": "0",
+        "volume_24h": "45862467.9490199387",
+        "delta_24h": "-2,27"
+      },
+      {
+        "symbol": "CVC",
+        "show_symbol": null,
+        "name": "Civic",
+        "rank": 103,
+        "price": "1.1194224664",
+        "market_cap": "383626042.2798423767",
+        "volume_24h": "73113621.0455517322",
+        "delta_24h": "-6,74"
+      },
+      {
+        "symbol": "STORJ",
+        "show_symbol": null,
+        "name": "Storj",
+        "rank": 89,
+        "price": "3.8075830028",
+        "market_cap": "517021944.7314724922",
+        "volume_24h": "74953928.160233289",
+        "delta_24h": "-4,20"
+      },
+      {
+        "symbol": "SUSHI",
+        "show_symbol": null,
+        "name": "SUSHI",
+        "rank": 1900,
+        "price": "9.1662897573",
+        "market_cap": "0",
+        "volume_24h": "45892112.5159214213",
+        "delta_24h": "-4,68"
+      },
+      {
+        "symbol": "ARPA",
+        "show_symbol": null,
+        "name": "ArpaCoin",
+        "rank": 405,
+        "price": "0.4727215587",
+        "market_cap": "0",
+        "volume_24h": "42649248.9514157325",
+        "delta_24h": "-3,83"
+      },
+      {
+        "symbol": "IOST",
+        "show_symbol": null,
+        "name": "IOStoken",
+        "rank": 63,
+        "price": "0.0610383631",
+        "market_cap": "733312795.0565888882",
+        "volume_24h": "59757672.8698530197",
+        "delta_24h": "-4,51"
+      },
+      {
+        "symbol": "LRC",
+        "show_symbol": null,
+        "name": "Loopring",
+        "rank": 51,
+        "price": "1.9201247927",
+        "market_cap": "1813913997.9904210567",
+        "volume_24h": "43811528.4047188088",
+        "delta_24h": "-1,33"
+      },
+      {
+        "symbol": "LPT",
+        "show_symbol": null,
+        "name": "Livepeer",
+        "rank": 1749,
+        "price": "89.693984",
+        "market_cap": "0",
+        "volume_24h": "41693751.7892252281",
+        "delta_24h": "-4,79"
+      },
+      {
+        "symbol": "KEY2",
+        "show_symbol": "KEY",
+        "name": "SelfKey",
+        "rank": 161,
+        "price": "0.050122211",
+        "market_cap": "127381135.1217772812",
+        "volume_24h": "42071201.4425761998",
+        "delta_24h": "-1,96"
+      },
+      {
+        "symbol": "MDT",
+        "show_symbol": null,
+        "name": "Midnight",
+        "rank": 398,
+        "price": "0.53652589",
+        "market_cap": "0",
+        "volume_24h": "40988824.7366966456",
+        "delta_24h": "-1,83"
+      },
+      {
+        "symbol": "BEL",
+        "show_symbol": null,
+        "name": "Bella Protocol",
+        "rank": 1882,
+        "price": "4.9542293",
+        "market_cap": "71836324.849999994",
+        "volume_24h": "41514519.1353929266",
+        "delta_24h": "6,23"
+      },
+      {
+        "symbol": "REN",
+        "show_symbol": null,
+        "name": "Republic Protocol",
+        "rank": 72,
+        "price": "0.5389326372",
+        "market_cap": "338441288.8101989627",
+        "volume_24h": "42090461.769334875",
+        "delta_24h": "4,61"
+      },
+      {
+        "symbol": "ENJ",
+        "show_symbol": null,
+        "name": "Enjin Coin",
+        "rank": 44,
+        "price": "2.358063737",
+        "market_cap": "1921284611.3390145302",
+        "volume_24h": "39407316.9032764286",
+        "delta_24h": "-6,53"
+      },
+      {
+        "symbol": "COTI",
+        "show_symbol": null,
+        "name": "Coti",
+        "rank": 1854,
+        "price": "0.89444721",
+        "market_cap": "0",
+        "volume_24h": "38962354.8127690181",
+        "delta_24h": "-5,80"
+      },
+      {
+        "symbol": "DOT",
+        "show_symbol": null,
+        "name": "Polkadot",
+        "rank": 10,
+        "price": "47.4363144095",
+        "market_cap": "46847122890.6563720703",
+        "volume_24h": "66879517.2098517194",
+        "delta_24h": "-2,19"
+      },
+      {
+        "symbol": "HOT",
+        "show_symbol": null,
+        "name": "HoloToken",
+        "rank": 52,
+        "price": "0.0166553009",
+        "market_cap": "2723046817.1451601982",
+        "volume_24h": "42712071.1869510934",
+        "delta_24h": "-2,68"
+      },
+      {
+        "symbol": "ORN",
+        "show_symbol": null,
+        "name": "Orion Protocol",
+        "rank": 1891,
+        "price": "11.725535",
+        "market_cap": "0",
+        "volume_24h": "38464093.3652053475",
+        "delta_24h": "2,49"
+      },
+      {
+        "symbol": "SUPER",
+        "show_symbol": null,
+        "name": "SuperCoin",
+        "rank": 820,
+        "price": "6.6665135",
+        "market_cap": "332555746.022857964",
+        "volume_24h": "38122557.4474525005",
+        "delta_24h": "0,78"
+      },
+      {
+        "symbol": "QTUM",
+        "show_symbol": null,
+        "name": "QTUM",
+        "rank": 54,
+        "price": "23.4598942037",
+        "market_cap": "2389335516.1755886078",
+        "volume_24h": "58825675.1979903728",
+        "delta_24h": "-3,15"
+      },
+      {
+        "symbol": "ICX",
+        "show_symbol": null,
+        "name": "ICON",
+        "rank": 61,
+        "price": "1.7397253622",
+        "market_cap": "914323878.3869285583",
+        "volume_24h": "56600113.3801870123",
+        "delta_24h": "-3,51"
+      },
+      {
+        "symbol": "WBTC",
+        "show_symbol": null,
+        "name": "wBTC",
+        "rank": 787,
+        "price": "353217.6399884397",
+        "market_cap": "71975511718.0843353271",
+        "volume_24h": "36800984.2332193702",
+        "delta_24h": "-0,99"
+      },
+      {
+        "symbol": "FTT",
+        "show_symbol": null,
+        "name": "FarmaTrust",
+        "rank": 1657,
+        "price": "9.4165481336",
+        "market_cap": "5649928880.1724805832",
+        "volume_24h": "34534850.4227073267",
+        "delta_24h": "-2,12"
+      },
+      {
+        "symbol": "SC",
+        "show_symbol": null,
+        "name": "Siacoin",
+        "rank": 60,
+        "price": "0.0777948277",
+        "market_cap": "3253150013.7363190651",
+        "volume_24h": "68343145.1407983601",
+        "delta_24h": "-25,61"
+      },
+      {
+        "symbol": "LIT",
+        "show_symbol": null,
+        "name": "LithiumCoin",
+        "rank": 452,
+        "price": "8.1345158497",
+        "market_cap": "0",
+        "volume_24h": "32737492.1116024256",
+        "delta_24h": "-0,64"
+      }
+    ],
+    "last_updated_timestamp": 1711984541,
+    "remaining": 55
+  }
+]
