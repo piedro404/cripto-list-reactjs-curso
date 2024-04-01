@@ -1,4 +1,5 @@
-  [{
+{
+  "coinlist": {
     "coins": [
       {
         "symbol": "USDT",
@@ -1003,5 +1004,5 @@
     ],
     "last_updated_timestamp": 1711984541,
     "remaining": 55
-  }
-]
+}
+}

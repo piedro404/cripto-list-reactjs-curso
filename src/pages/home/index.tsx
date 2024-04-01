@@ -28,7 +28,7 @@ export function Home() {
 
     useEffect(() => {
         function getData() {
-            fetch("http://localhost:4000/0")
+            fetch("http://localhost:4000/coinlist")
             .then(response => response.json())
             .then((data: DataProps) => {
                 let coinsData = data.coins.slice(0, 15);
