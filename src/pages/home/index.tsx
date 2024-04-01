@@ -1,8 +1,62 @@
 import styles from './home.module.css'
 import { Link } from 'react-router-dom'
 import { BiSearch } from 'react-icons/bi'
+import { useEffect, useState } from 'react'
+
+// https://coinlib.io/api/v1/coinlist?key=dd724b190c23be82
+// json-server --watch data.json --port 4000
+
+interface CoinProps {
+    name: string;
+    delta_24h: string;
+    price: string;
+    symbol: string;
+    volume_24h: string;
+    market_cap: string;
+    formattedPrice: string;
+    formattedMarket: string;
+}
+
+interface DataProps {
+    coins: CoinProps[];
+}
 
 export function Home() {
+    const [coins, setCoins] = useState<CoinProps[]>([])
+
+    useEffect(() => {
+        function getData() {
+            fetch("http://localhost:4000/0")
+            .then(response => response.json())
+            .then((data: DataProps) => {
+                let coinsData = data.coins.slice(0, 15);
+
+                let price = Intl.NumberFormat('pt-BR', {
+                    style: 'currency',
+                    currency: 'BRL'
+                })
+
+                const formatResult = coinsData.map((item) => {
+                    const formatted = {
+                        ...item,
+                        formattedPrice: price.format(Number(item.price)),
+                        formattedMarket: price.format(Number(item.market_cap))
+                    }
+
+                    return formatted
+                })
+
+                // console.log(formatResult);
+                setCoins(formatResult);
+            })
+            .catch((err) => {
+                console.log(err);
+            })
+        }
+
+        getData();
+    }, [])
+    
     return(
         <main className={styles.container}>
             <form className={styles.form}>
