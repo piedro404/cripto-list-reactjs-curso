@@ -3,20 +3,22 @@ import styles from './detail.module.css';
 import { useNavigate, useParams } from 'react-router-dom';
 
 interface CoinProp {
-    name: string;
-    delta_24h: string;
-    show_symbol: string | null;
-    rank: string;
-    price: string;
     symbol: string;
-    volume_24h: string;
+    name: string;
+    price: string;
     market_cap: string;
+    volume_24h: string;
+    low_24h: string;
+    high_24h: string;
+    total_volume_24h: string;
+    delta_24h: string;
+    show_symbol?: string | null;
+    rank: string;
     formattedPrice: string;
     formattedMarket: string;
-}
-
-interface DataProp {
-    0: CoinProp;
+    formattedLowPrice: string;
+    formattedHighPrice: string;
+    error?: string;
 }
 
 export function Detail() {
@@ -28,11 +30,11 @@ export function Detail() {
 
     useEffect(() => {
         function getData() {
-            fetch(`http://localhost:4000/coins?symbol=${cripto}`)
+            fetch(`https://sujeitoprogramador.com/api-cripto/coin/?key=dd724b190c23be82&pref=BRL&symbol=${cripto}`)
             .then(response => response.json())
-            .then((data: DataProp) => {
+            .then((data: CoinProp) => {
 
-                if(!(data[0])) {
+                if(data.error) {
                     navigate('/')
                 }
 
@@ -42,10 +44,12 @@ export function Detail() {
                 })
                 
                 const resultData = {
-                    ...data[0],
-                    formattedPrice: price.format(Number(data[0].price)),
-                    formattedMarket: price.format(Number(data[0].market_cap)),
-                    delta_24h: data[0].delta_24h.replace(',', '.')
+                    ...data,
+                    formattedPrice: price.format(Number(data.price)),
+                    formattedMarket: price.format(Number(data.market_cap)),
+                    formattedLowPrice: price.format(Number(data.low_24h)),
+                    formattedHighPrice: price.format(Number(data.high_24h)),
+                    delta_24h: data.delta_24h.replace(',', '.')
                 }
 
                 // console.log(resultData);
@@ -80,6 +84,12 @@ export function Detail() {
                 </p>
                 <p>
                     <strong>Valor de Mercado:</strong> {detail?.formattedMarket}
+                </p>
+                <p>
+                    <strong>Maior Preço em 24h:</strong> {detail?.formattedHighPrice}
+                </p>
+                <p>
+                    <strong>Menor Preço em 24h:</strong> {detail?.formattedLowPrice}
                 </p>
                 <p>
                     <strong>Delta 24h:</strong> 

@@ -4,7 +4,9 @@ import { BiSearch } from 'react-icons/bi'
 import { useEffect, useState, FormEvent } from 'react'
 
 // https://coinlib.io/api/v1/coinlist?key=dd724b190c23be82
+// https://sujeitoprogramador.com/api-cripto/?key=dd724b190c23be82
 // json-server --watch data.json --port 4000
+// http://localhost:4000/coinlist
 
 interface CoinProps {
     name: string;
@@ -28,7 +30,7 @@ export function Home() {
 
     useEffect(() => {
         function getData() {
-            fetch("http://localhost:4000/coinlist")
+            fetch("https://sujeitoprogramador.com/api-cripto/?key=dd724b190c23be82")
             .then(response => response.json())
             .then((data: DataProps) => {
                 let coinsData = data.coins.slice(0, 15);
