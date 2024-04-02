@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import styles from './detail.module.css';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 interface CoinProp {
     name: string;
@@ -21,14 +21,20 @@ interface DataProp {
 
 export function Detail() {
     const { cripto } = useParams();
-    const [detail, setDetail] = useState<CoinProp>()
-    const [loading, setLoading] = useState(true)
+    const [detail, setDetail] = useState<CoinProp>();
+    const [loading, setLoading] = useState(true);
     
+    const navigate = useNavigate();
+
     useEffect(() => {
         function getData() {
             fetch(`http://localhost:4000/coins?symbol=${cripto}`)
             .then(response => response.json())
             .then((data: DataProp) => {
+
+                if(!(data[0])) {
+                    navigate('/')
+                }
 
                 let price = Intl.NumberFormat('pt-BR', {
                     style: 'currency',
@@ -42,7 +48,7 @@ export function Detail() {
                     delta_24h: data[0].delta_24h.replace(',', '.')
                 }
 
-                // console.log(resultData)
+                // console.log(resultData);
                 setDetail(resultData);
                 setLoading(false);
             })
