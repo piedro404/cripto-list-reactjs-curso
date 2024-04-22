@@ -18,7 +18,6 @@ interface CoinProp {
     formattedMarket: string;
     formattedLowPrice: string;
     formattedHighPrice: string;
-    error?: string;
 }
 
 export function Detail() {
@@ -33,11 +32,6 @@ export function Detail() {
             fetch(`https://sujeitoprogramador.com/api-cripto/coin/?key=dd724b190c23be82&pref=BRL&symbol=${cripto}`)
             .then(response => response.json())
             .then((data: CoinProp) => {
-
-                if(data.error) {
-                    navigate('/')
-                }
-
                 let price = Intl.NumberFormat('pt-BR', {
                     style: 'currency',
                     currency: 'BRL'
@@ -56,7 +50,9 @@ export function Detail() {
                 setDetail(resultData);
                 setLoading(false);
             })
-            
+            .catch(() => {
+                navigate('/')
+            }) 
         }
 
         getData()
